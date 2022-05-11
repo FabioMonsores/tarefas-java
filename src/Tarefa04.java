@@ -22,9 +22,9 @@ public class Tarefa04 {
         salarioComDesconto = (salarioBruto - desconto);
         valorReceber = salarioComDesconto + gratificacao;
 
-        System.out.println("Salário Bruto: " + salarioBruto);
-        System.out.println("Desconto: " + desconto);
-        System.out.println("Gratificação: " + gratificacao);
-        System.out.println("Valor a Receber: " + valorReceber);
+        System.out.printf("Salário Bruto: %.2f%n",  salarioBruto);
+        System.out.printf("Gratificação: %.2f%n", gratificacao);
+        System.out.printf("Desconto: %.2f%n", desconto);
+        System.out.printf("Valor a Receber: %.2f",  valorReceber);
     }
 }
